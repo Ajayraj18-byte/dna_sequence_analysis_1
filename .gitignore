@@ -1,0 +1,40 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Python package/build artifacts
+build/
+dist/
+*.egg-info/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local editor settings
+.vscode/
+.idea/
+
+# Local test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
